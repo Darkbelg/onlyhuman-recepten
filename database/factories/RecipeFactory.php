@@ -30,6 +30,7 @@ class RecipeFactory extends Factory
             'preparation_time' => $this->faker->time(),
             'show' => true,
             'image' => $this->faker->imageUrl(120, 90),
+            'name' => $this->faker->word
         ];
     }
 }

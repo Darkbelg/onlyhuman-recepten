@@ -13,3 +13,7 @@ Question what will i use to track the time of a recepie
 Models are added
 Relations are added
 Deploy online
+17:07 pagination overview learning livewire
+17:24 Zit momenteel een beetje vast op livewire omdat er zoveel gevraagd word terwijl mijn kennis nog vrij basis is.
+Stop
+Total time 3h 30m not 4h 30m te gaan.
