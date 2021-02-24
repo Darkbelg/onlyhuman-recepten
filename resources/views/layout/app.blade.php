@@ -22,7 +22,7 @@
     @livewireStyles
 </head>
 <body class="antialiased">
-    @yield('content');
+    @yield('content')
     @livewireScripts
 </body>
 </html>

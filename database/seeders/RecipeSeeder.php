@@ -21,7 +21,7 @@ class RecipeSeeder extends Seeder
         $recipes->each(function ($recipe) use ($ingredients) {
             $recipe->ingredients()->attach(
                 $ingredients->random(rand(1, 12))->pluck('id')->toArray(),
-                ['quantity' => rand(1, 1000)]
+                ['quantity' =>  rand(1, 1000)]
             );
         });
     }
