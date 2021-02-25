@@ -38,6 +38,10 @@ class Recipe extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'show'
+    ];
+
     protected $with = ['ingredients'];
 
     public function category(){

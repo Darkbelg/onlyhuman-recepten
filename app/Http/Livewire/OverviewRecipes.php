@@ -15,6 +15,8 @@ class OverviewRecipes extends Component
     public $category = null;
     public $search = "";
 
+    protected $paginationTheme = 'bootstrap';
+
     protected $queryString = [
         'paginationRange' => ['except' => 10],
         'search' => ['except' => ''],

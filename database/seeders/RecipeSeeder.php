@@ -24,5 +24,9 @@ class RecipeSeeder extends Seeder
                 ['quantity' =>  rand(1, 1000)]
             );
         });
+
+        $recipes->random(25)->each(function ($recipe){
+           $recipe->update(['show' => false]);
+        });
     }
 }

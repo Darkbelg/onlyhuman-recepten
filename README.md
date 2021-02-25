@@ -44,3 +44,10 @@ I wonder if there is a method or something else that automaticly exclude these f
 15:51 break
 16:03
 6h 45m
+Kijken of ik nog een paar bugs van de seeder kan oplossen.
+16:28
+Bugs ogelost die ik kon oplossen
+7h 15m
+Rest van tijd styling
+voor bootstrap gekozen met cdn
+17:15
