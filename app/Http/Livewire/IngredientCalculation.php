@@ -24,6 +24,7 @@ class IngredientCalculation extends Component
         }
 
         return view('livewire.ingredient-calculation',
-            ['ingredients' => $quantityIngredients, 'quantityPeople' => $this->quantityIngredient]);
+            ['ingredients' => $quantityIngredients]
+        );
     }
 }

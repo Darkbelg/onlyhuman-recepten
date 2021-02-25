@@ -23,13 +23,17 @@ class OverviewRecipes extends Component
 
     public function render()
     {
-        $recipes = (new Recipe)->newQuery();
+        $recipes = (new Recipe)->newQuery()->where('show',true);
         $categories = Category::all();
 
         if ($this->search !== "") {
             $recipes->where([
                 ['name', 'like', '%' . $this->search . '%']
-            ]);
+            ])->orWhere(function($query){
+                $query->whereHas('ingredients',function ($ingredient){
+                   return $ingredient->where('name','like','%' . $this->search . '%');
+                });
+            });
         }
 
         if (isset($this->category)) {

@@ -39,3 +39,8 @@ Het duurt te lang om de oplossing te vinden dus ga ik een array gebruiken
 Mogelijk moet er hier events gebruikt worden.
 15:22 Beginners fout. Het model input veld die veranderd moet in de component zitten.
 15:30 total 6h 15m
+15:35 implement show only when that value is set to true.
+I wonder if there is a method or something else that automaticly exclude these from tresults.
+15:51 break
+16:03
+6h 45m
