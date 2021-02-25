@@ -16,7 +16,7 @@ Deploy online
 17:07 pagination overview learning livewire
 17:24 Zit momenteel een beetje vast op livewire omdat er zoveel gevraagd word terwijl mijn kennis nog vrij basis is.
 Stop
-Total time 3h 30m not 4h 30m te gaan.
+Total time 3h 30m nog 4h 30m te gaan.
 
 Wendsday 17:05
 A hurdle was livewire only used it once in a tutorial so wasn't 100% sure how it works.
@@ -26,3 +26,10 @@ I looked up the example code for the search box. And it seems pretty straight fo
 18:11 Ik heb het kunnen doen werken met search en categories in één livewire commponent op één pagina.
 Niet zeker of dat is wat er gewild is. Maar ik wou weten of het mogelijk was. Mijn queries moeten nog wat geoptimaliseerd worden.
 Git commit push and deploy
+
+Total time 4h 30m
+
+Donderdag 13:30
+13:45
+14:00
+14:28

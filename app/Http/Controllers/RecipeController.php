@@ -25,6 +25,14 @@ class RecipeController extends Controller
      */
     public function show(Recipe $recipe)
     {
-        return view('recipe.show',["recipe" => $recipe]);
+        $randomRecipes = Recipe::inRandomOrder()
+            ->where('id', '<>', $recipe->id)
+            ->whereHas('category', function ($category) use ($recipe) {
+                return $category->where('id', $recipe->category->id);
+            })
+            ->limit(4)
+            ->get();
+
+        return view('recipe.show', ['recipe' => $recipe, 'randomRecipes' => $randomRecipes]);
     }
 }

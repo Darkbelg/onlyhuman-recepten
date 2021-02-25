@@ -15,26 +15,32 @@ class OverviewRecipes extends Component
     public $category = null;
     public $search = "";
 
+    protected $queryString = [
+        'paginationRange' => ['except' => 10],
+        'search' => ['except' => ''],
+        'category' => ['except' => null]
+    ];
+
     public function render()
     {
-        $recipes = Recipe::paginate($this->paginationRange);
+        $recipes = (new Recipe)->newQuery();
         $categories = Category::all();
 
         if ($this->search !== "") {
-            $recipes = Recipe::where([
+            $recipes->where([
                 ['name', 'like', '%' . $this->search . '%']
-            ])->paginate($this->paginationRange);
+            ]);
         }
 
         if (isset($this->category)) {
-            $recipes = Recipe::whereHas('category',function ($category){
-                return $category->where('id',$this->category);
-            })->paginate($this->paginationRange);
+            $recipes->whereHas('category', function ($category) {
+                return $category->where('id', $this->category);
+            });
         }
 
         return view('livewire.overview-recipes', [
             'search' => $this->category,
-            'recipes' => $recipes,
+            'recipes' => $recipes->paginate($this->paginationRange),
             'paginationRange' => $this->paginationRange,
             'categories' => $categories
         ]);
