@@ -180,3 +180,16 @@ https://www.google.com/search?channel=fs&client=ubuntu&q=eloquent+attach+loop
 https://stackoverflow.com/questions/47298225/laravel-attach-object-to-many-objects-in-many-to-many-relationship-without-loop
 
 https://www.google.com/search?channel=fs&client=ubuntu&q=eloquent+attach+with+pivot
+
+## trello board
+Ik heb mijn voortuitgang in trello bijgehouden.
+https://trello.com/b/ZPirimJ7
+
+## conclusie
+Het was de eerste keer dat ik echt iets met livewire gebouwd heb. Wanneer ik het concept door had ging de ontwikkeling zeer vlot.
+Het creeren van de models, relationships en seeder gaat al vrij goed er waren wel nog een paar dingen dat ik niet wist.
+Er waren nog wat bugs met de seeder die ik kunnen verhelpen heb.
+Opzetten van de webspace was zeer gemakkelijk.
+Er stond in de opdracht dat je waarschijnlijk de site niet zal compleet kunnen afwerken. Terwijl ik wel nog mogelijke verbeteringen zie.
+Lijkt de core functionaliteit er wel te zijn. Ik heb ook geen unit testing gebruikt omdat deze niet vereist was en ik niet wist hoeveel dit mij zou vertragen.
+Ten slotte ben ik tevreden met het resultaat dat ik gecreerd heb.
