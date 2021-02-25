@@ -30,6 +30,12 @@ Git commit push and deploy
 Total time 4h 30m
 
 Donderdag 13:30
-13:45
+13:45 brake
 14:00
 14:28
+15:06 even geprobeerd om de ingredient array om te zetten in een collcetion voor leesbaarder code en consistent manupilatie
+Het duurt te lang om de oplossing te vinden dus ga ik een array gebruiken
+15:13 input veld met nummers registreed niet meteen een call naar de backend.
+Mogelijk moet er hier events gebruikt worden.
+15:22 Beginners fout. Het model input veld die veranderd moet in de component zitten.
+15:30 total 6h 15m
