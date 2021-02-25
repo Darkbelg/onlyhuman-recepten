@@ -50,4 +50,6 @@ Bugs ogelost die ik kon oplossen
 7h 15m
 Rest van tijd styling
 voor bootstrap gekozen met cdn
+16:50
+Added basic styling
 17:15

@@ -10,6 +10,10 @@ class IngredientCalculation extends Component
 
     public $recipe;
 
+    protected $queryString = [
+        'quantityIngredient' => ['except' => 2]
+    ];
+
     public function render()
     {
         $quantityIngredients = [];
